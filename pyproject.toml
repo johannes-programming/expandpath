@@ -19,7 +19,7 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = []
-description = "expandpath"
+description = "This project provides a function to expand a path."
 keywords = []
 name = "expandpath"
 readme = "README.rst"
@@ -33,3 +33,4 @@ file = "LICENSE.txt"
 Download = "https://pypi.org/project/expandpath/#files"
 Index = "https://pypi.org/project/expandpath/"
 Source = "https://github.com/johannes-programming/expandpath/"
+Website = "https://expandpath.johannes-programming.online/"

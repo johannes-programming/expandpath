@@ -1,8 +1,10 @@
 from typing import *
+import os
 
-__all__ = ["main"]
+__all__ = ["expandpath"]
 
-
-def main(args: Optional[Iterable] = None) -> None:
-    "This function prints 'Hello World!'."
-    print("Hello World!")
+def expandpath(value:Any, /)->Any:
+    "This function expands a given path."
+    ans = os.path.expanduser(value)
+    ans = os.path.expandvars(ans)
+    return ans
