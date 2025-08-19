@@ -6,10 +6,10 @@ requires = [
 
 [project]
 authors = [
-    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+    { email = "johannes.programming@gmail.com", name = "Johannes" },
 ]
 classifiers = [
-    "Development Status :: 1 - Planning",
+    "Development Status :: 2 - Pre-Alpha",
     "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
@@ -18,13 +18,16 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Typing :: Typed",
 ]
-dependencies = []
+dependencies = [
+    "click>=8.1.8",
+    "preparse>=0.0.12",
+]
 description = "This project provides a function to expand a path."
 keywords = []
 name = "expandpath"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "0.0.0.dev0"
+version = "0.0.1"
 
 [project.license]
 file = "LICENSE.txt"
