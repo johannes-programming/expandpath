@@ -1,0 +1,59 @@
+Introduction
+------------
+
+This project provides a function to expand a path.
+
+Links
+-----
+
+- Download: https://pypi.org/project/expandpath/#files
+- Index: https://pypi.org/project/expandpath/
+- Source: https://github.com/johannes-programming/expandpath/
+- Website: https://expandpath.johannes-programming.online/
+
+Installation
+------------
+
+To install expandpath, you can use pip. Open your terminal and run:
+
+.. code-block:: shell
+    
+    pip install expandpath
+
+Features
+--------
+
+``expandpath.expandpath(value: Any, /) -> Any``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function expands a given path.
+
+``expandpath.main``
+~~~~~~~~~~~~~~~~~~~
+
+This click command implements the CLI.
+
+``expandpath.test() -> unittest.TextTestRunner``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This project can be tested through its test function.
+
+.. code-block:: python
+
+    import expandpath
+    expandpath.test()
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Impressum
+---------
+
+**Johannes Programming**
+
+- Name: Johannes
+- Email: johannes.programming@gmail.com
+- Homepage: https://www.johannes-programming.online/
+- Gravatar: https://www.johannes-programming.fyi/
