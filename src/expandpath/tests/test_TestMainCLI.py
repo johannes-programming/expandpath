@@ -36,7 +36,9 @@ class TestMainCLI(unittest.TestCase):
         result = self.runner.invoke(expandpath.core.main, ["-V"])
         # version is None, but Click still prints something like "main, version"
         self.assertEqual(result.exit_code, 0)
-        self.assertTrue(result.output.strip())  # just ensure something is printed
+        self.assertTrue(
+            result.output.strip()
+        )  # just ensure something is printed
 
 
 if __name__ == "__main__":

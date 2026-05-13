@@ -23,7 +23,9 @@ class TestExpandPath(unittest.TestCase):
         mock_expandvars.assert_called_once_with("/home/user/$FOO")
         self.assertEqual(result, "/home/user/bar")
 
-    def test_expandpath_no_special_chars_returns_same_string(self: Self) -> None:
+    def test_expandpath_no_special_chars_returns_same_string(
+        self: Self,
+    ) -> None:
         # This relies only on os.path behavior, but for a simple string
         # without ~ or env vars it should round-trip unchanged.
         result: Any
